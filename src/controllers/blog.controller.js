@@ -2,7 +2,7 @@ import Blog from "../models/blog.model.js";
 import User from "../models/user.model.js";
 import Comment from "../models/comments.model.js";
 import createMulterInstance from "../helpers/multer.js";
-import { uploadImage } from "../helpers/cloudinary";
+import { uploadImage } from "../helpers/cloudinary.js";
 
 const upload = createMulterInstance("Blog-thumbnails");
 
